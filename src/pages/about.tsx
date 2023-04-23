@@ -13,10 +13,13 @@ export default function About () {
       </Head>
       <Nav selected = 'about'/>
       <div className="mt-2 mb-4">
-        <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-3 lg:grid-rows-[auto_1fr] lg:gap-y-12">
+        <div className="grid grid-cols-2 gap-y-16 lg:grid-cols-3 lg:grid-rows-[auto_1fr] lg:gap-y-12">
           <div className="lg:pl-20">
-            <div className='flex justify-end md: px-24 align-middle'>
-              <Image alt= 'Picture of Anthony Margherio.' className= 'rounded-2xl' src='/me.jpg' width={300} height={300}/>
+            <div className='flex justify-center flex-col gap-2 md: px-24 align-middle'>
+              <Image alt= 'Picture of Anthony Margherio.' className= 'rounded-2xl flex' src='/me.jpg' width={300} height={100}/>
+              <Image alt= 'Picture of an aircraft window and clouds.' className= 'rounded-2xl hidden md:flex' src='/airplanewindow2.jpg' width={300} height={150}/>
+              <Image alt= 'Picture of Anthony Margherio.' className= 'rounded-2xl hidden md:flex' src='/smokies.jpg' width={300} height={300}/>
+
             </div>
             <div className="max-w-xs px-2.5 lg:max-w-none">
             </div>
