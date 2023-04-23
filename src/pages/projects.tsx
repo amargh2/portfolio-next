@@ -2,7 +2,7 @@ import Nav from "@/components/Nav"
 export default function Projects() {
     return (
         <div>
-            <Nav/>
+            <Nav selected='projects'/>
             <div>
                 <h1>project</h1>
                 <div></div>

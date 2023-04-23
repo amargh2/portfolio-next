@@ -1,13 +1,14 @@
 import Link  from 'next/link'
-export default function Nav() {
+export default function Nav(props) {
+  
   return (
     <div className="flex align-middle justify-center py-2">
       <div className="flex justify-center align-middle">
-        <div className="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
+        <div className="flex rounded-full bg-white/90 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
           <Link href='/'>
             <button
               type="button"
-              className="hover:bg-gradient-to-r hover:to-indigo-500 hover:from-cyan-300 rounded-l-lg bg-gradient-to-br py-1 w-24 hover:text-white font-medium"
+              className= { props.selected==='home' ? "bg-gradient-to-r to-indigo-500 from-cyan-300 py-1 w-24 text-white font-medium rounded-l-2xl" : "hover:bg-gradient-to-r hover:to-indigo-500 hover:from-cyan-300 bg-gradient-to-br py-1 w-24 rounded-l-2xl hover:text-white font-medium"}
             >
               Home
             </button>
@@ -15,7 +16,7 @@ export default function Nav() {
           <Link href='/about'>
             <button
               type="button"
-              className="hover:bg-gradient-to-r hover:to-indigo-500 hover:from-cyan-300 rounded-l-lg bg-gradient-to-br py-1 w-24 hover:text-white font-medium"
+              className={ props.selected==='about' ? "bg-gradient-to-r from-indigo-500 to-cyan-300 bg-gradient-to-br py-1 w-24 text-white font-medium" : "hover:bg-gradient-to-r hover:from-indigo-500 hover:to-cyan-300 bg-gradient-to-br py-1 w-24 hover:text-white font-medium"}
             >
               About Me
             </button>
@@ -23,7 +24,7 @@ export default function Nav() {
           <Link href='/projects'>
             <button
               type="button"
-              className="hover:bg-gradient-to-br hover:to-indigo-500 hover:from-cyan-300 bg-gradient-to-tr rounded-r-lg py-1 w-24 hover:text-white font-medium"
+              className={ props.selected==='projects' ? "bg-gradient-to-r to-indigo-500 from-cyan-300 bg-gradient-to-br py-1 w-24 text-white font-medium rounded-r-2xl" : "hover:bg-gradient-to-r hover:to-indigo-500 hover:from-cyan-300 bg-gradient-to-br py-1 rounded-r-2xl w-24 hover:text-white font-medium"}
             >
               Projects
             </button>
