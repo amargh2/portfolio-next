@@ -11,7 +11,7 @@ import Image from "next/image"
 
 const SkillsPanel = () => {
   return (
-          <div className="flex flex-col items-center bg-gradient-to-br from-blue-100 to-white rounded-lg shadow-lg ring-1 ring-indigo-200">
+          <div className="flex flex-col items-center rounded-lg shadow-lg ring-1 ring-indigo-200">
                 <h1 className='font-semibold text-lg pb-6'>My Skills</h1>
                     <div className="grid grid-cols-6 sm:grid-rows-1 sm:grid-cols-12 gap-3">
                       <div className="flex justify-center"><SiHtml5 size={70} color={'orange'}/></div>
