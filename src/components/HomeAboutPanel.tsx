@@ -13,6 +13,8 @@ export default function HomeAboutPanel() {
             </Link>    
           </div>  
         </div>
+        <div>  
+          <div className='flex justify-center font-bold text-lg'> Hi there, I'm Anthony. I'm a self-taught developer in Chicago.</div>
           <div className='flex justify-center m-10'>
             I'm a curious lifelong learner with a love for tech, travel, 
             reading, and writing.
@@ -23,7 +25,7 @@ export default function HomeAboutPanel() {
             I never shy away from new technologies or things to learn. In addition
             to my technical skills I also have a BA in English and strong writing skills.
           </div>
-          
+          </div>
         </div>
     )
 }
