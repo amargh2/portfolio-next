@@ -18,14 +18,14 @@ export default function About () {
             <div className='flex justify-center flex-col gap-2 md: px-24 align-middle'>
               <Image alt= 'Picture of Anthony Margherio.' className= 'rounded-2xl flex' src='/melondon.jpg' width={300} height={100}/>
               <Image alt= 'Picture of an aircraft window and clouds.' className= 'rounded-2xl hidden md:flex' src='/airplanewindow2.jpg' width={300} height={150}/>
-              <Image alt= 'Picture of Anthony Margherio.' className= 'rounded-2xl hidden md:flex' src='/smokies.jpg' width={300} height={300}/>
+              <Image alt= 'Picture of Smoky Mountains.' className= 'rounded-2xl hidden md:flex' src='/smokies.jpg' width={300} height={300}/>
 
             </div>
             <div className="max-w-xs px-2.5 lg:max-w-none">
             </div>
           </div>
           <div className="lg:order-second lg:row-span-2 flex justify-center m-2">
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+            <div className="mt-6 space-y-7 text-base text-zinc-600">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
               Hi, I'm Anthony Margherio. I'm a self-taught developer living in Chicago, Illinois.
             </h1>
