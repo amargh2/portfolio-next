@@ -4,7 +4,7 @@ import {BsGithub} from 'react-icons/bs'
 
 export default function HomeAboutPanel() {
     return (    
-    <div className='flex md:flex-row flex-col from-blue-100 to-white rounded-lg gap-2 shadow-md p-2 ring-1 ring-indigo-200'>
+    <div className='flex md:flex-row flex-col bg-white rounded-lg gap-2 shadow-md p-2 ring-1 ring-indigo-200'>
           <div className='flex flex-col items-center'>
             <Image src='/me.jpg' alt='Photo of Anthony.' width={500} height={100} className='rounded-full hidden md:flex'/>
             <Image src='/me.jpg' alt='Photo of Anthony.' width={200} height={100} className='rounded-full md:hidden'/>
@@ -24,7 +24,9 @@ export default function HomeAboutPanel() {
             in most areas of tech, including software development, networking 
             and IT infrastructure. I'm comfortable in Linux and Windows, and 
             I never shy away from new technologies or things to learn. In addition
-            to my technical skills I also have a BA in English and strong writing skills.
+            to my technical skills I also have a BA in English and strong writing skills
+            along with a lot of experience working with people, from teaching English overseas
+            to assisting customers at 30,000 feet.
           </div>
           </div>
         </div>
