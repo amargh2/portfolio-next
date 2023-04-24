@@ -4,9 +4,10 @@ import {BsGithub} from 'react-icons/bs'
 
 export default function HomeAboutPanel() {
     return (    
-    <div className='flex from-blue-100 to-white rounded-lg shadow-md p-2 ring-1 ring-indigo-200'>
-          <div className='flex flex-col'>
-            <Image src='/me.jpg' alt='Photo of Anthony.' width={800} height={100} className='rounded-full'/>
+    <div className='flex md:flex-row flex-col from-blue-100 to-white rounded-lg gap-2 shadow-md p-2 ring-1 ring-indigo-200'>
+          <div className='flex flex-col items-center'>
+            <Image src='/me.jpg' alt='Photo of Anthony.' width={500} height={100} className='rounded-full hidden md:flex'/>
+            <Image src='/me.jpg' alt='Photo of Anthony.' width={200} height={100} className='rounded-full md:hidden'/>
           <div className='text-slate-90 mt-2 flex justify-center p-2'>
             <Link href='https://www.github.com/amargh2'>    
               <BsGithub size={30}/>
@@ -14,7 +15,7 @@ export default function HomeAboutPanel() {
           </div>  
         </div>
         <div>  
-          <div className='flex justify-center font-bold text-lg'> Hi there, I'm Anthony. I'm a self-taught developer in Chicago.</div>
+          <div className='flex justify-center font-bold text-lg text-center'> Hi there, I'm Anthony. I'm a self-taught developer in Chicago.</div>
           <div className='flex justify-center m-10'>
             I'm a curious lifelong learner with a love for tech, travel, 
             reading, and writing.
