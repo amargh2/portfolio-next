@@ -4,7 +4,7 @@ import { FiExternalLink } from "react-icons/fi"
 import Image from "next/image"
 
 export default function ProjectCarousel() {
-  const addLinks = (project) => {
+  const addLinks = (project:any) => {
     if (project.link) {
       return (
         <div className ='flex'>

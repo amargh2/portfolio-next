@@ -1,5 +1,5 @@
 import Link  from 'next/link'
-export default function Nav(props) {
+export default function Nav(props:any) {
   
   return (
     <div className="flex align-middle justify-center py-2">

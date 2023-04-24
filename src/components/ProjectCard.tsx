@@ -3,7 +3,7 @@ import {BsGithub} from 'react-icons/bs'
 import {FiExternalLink} from 'react-icons/fi'
 import Link from "next/link"
 
-export default function ProjectCard(props) {
+export default function ProjectCard(props:any) {
   return (
     <>
       <div className='shadow-lg flex flex-col bg-gradient-to-br from-blue-100 to-white rounded-lg hover:ring-1 hover:ring-indigo-400 p-2'>
