@@ -4,7 +4,7 @@ import {BsGithub} from 'react-icons/bs'
 
 export default function HomeAboutPanel() {
     return (    
-    <div className='flex mt-10 bg-gradient-to-br from-blue-200 to-white rounded-lg shadow-md p-2 ring-1 ring-indigo-200'>
+    <div className='flex mt-10 bg-gradient-to-br from-blue-100 to-white rounded-lg shadow-md p-2 ring-1 ring-indigo-200'>
           <div className='flex flex-col'>
             <Image src='/me.jpg' alt='Photo of Anthony.' width={800} height={100} className='rounded-full'/>
           <div className='text-slate-90 mt-2 flex justify-center p-2'>

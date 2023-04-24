@@ -6,8 +6,8 @@ export default function ProjectsPage() {
         <>
             <Nav selected='projects'/>
             <div className= 'grid grid-cols-1 px-10 md:grid-cols-3 md:px-32 gap-10 mt-4 md:mt-4 mb-10'>
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400 col-start-1 col-span-3 lg:mx-40">
-                <h1 className="text-4xl flex justify-center font-bold tracking-tight text-center text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+            <div className="mt-6 space-y-7 text-base text-zinc-600 col-start-1 col-span-3 lg:mx-40">
+                <h1 className="text-4xl flex justify-center font-bold tracking-tight text-center text-zinc-800 sm:text-5xl">
                     Some of my projects so far
                 </h1>
                   <p>
