@@ -1,6 +1,7 @@
 import projects from "./projects"
 import { FaGithub } from "react-icons/fa"
 import { FiExternalLink } from "react-icons/fi"
+import Image from "next/image"
 
 export default function ProjectCarousel() {
   const addLinks = (project) => {
@@ -21,10 +22,10 @@ export default function ProjectCarousel() {
   }
 
  function createItemsForCarousel() {
-  const processedProjects = projects.map(project => {
+  const processedProjects = projects.map((project, i) => {
     return (
-      <div id={'item' + project.id.toString()} className="carousel-item w-full lg:flex-row flex flex-col items-center justify-center p-1">
-          <div className='flex justify-center'><img src={project.imgURL} className="w-full h-full" alt={project.name}/></div>
+      <div key={i} id={'item' + project.id.toString()} className="carousel-item w-full lg:flex-row flex flex-col items-center justify-center p-1">
+          <div className='flex justify-center'><Image src={project.imgURL} className="w-full h-full" width={900} height={100} alt={project.name}/></div>
             <div className="flex flex-col gap-4">
               <div className="flex justify-center">
                 <p className='font-semibold'>{project.name}</p>

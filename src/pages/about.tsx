@@ -31,7 +31,7 @@ export default function About () {
             </h1>
               <p>
                 I grew up in a small town in Illinois dreaming of seeing the world,
-                and I'm really lucky to have done at least little bit of that
+                and I consider myself lucky to have done at least little bit of that
                 as a flight attendant, English teacher in South Korea, and solo backpacker. 
                 While I wouldn't change a thing,
                 nearly a decade in the air coupled with the pandemic left me thinking about 
