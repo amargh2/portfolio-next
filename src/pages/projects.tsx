@@ -15,9 +15,9 @@ export default function ProjectsPage() {
       </Head>  
       <div className='flex flex-col mb-3'>
         <Nav selected='projects'/>
-        <div className= 'grid grid-cols-1 px-10 md:grid-cols-3 md:px-32 gap-10 mt-4 mb-10'>
-        <div className="mt-4 space-y-7 text-base text-zinc-600 col-start-1 col-span-3 lg:mx-40">
-            <h1 className="text-4xl flex justify-center font-bold tracking-tight text-center text-zinc-800 sm:text-5xl">
+        <div className= 'grid grid-cols-1 px-10 md:grid-cols-3 md:px-32 gap-10 mb-10'>
+        <div className="mt-2 space-y-7 text-base text-zinc-600 col-start-1 col-span-3 lg:mx-40">
+            <h1 className="text-4xl flex justify-center font-bold tracking-tight text-center text-zinc-800">
                 Some of my projects so far
             </h1>
               <p>

@@ -23,7 +23,7 @@ export default function About () {
             </div>
           <div className="lg:col-start-3 col-span-2 flex justify-center">
             <div className="space-y-7 text-base text-zinc-600">
-            <h1 className="font-bold tracking-tight text-zinc-800 dark:text-zinc-100 text-2xl">
+            <h1 className="font-bold tracking-tight text-zinc-800 dark:text-zinc-100 text-3xl">
               Hi, I'm Anthony. I'm a tech and travel enthusiast living in Chicago.
             </h1>
               <p>
