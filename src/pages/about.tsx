@@ -14,20 +14,16 @@ export default function About () {
       </Head>
       <Nav selected = 'about'/>
       <div className="mt-2 mb-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-16 lg:grid-cols-3 lg:grid-rows-[auto_1fr] lg:gap-y-12">
-          <div className="lg:pl-20">
-            <div className='flex justify-center flex-col gap-2 md: px-24 align-middle'>
+        <div className="flex m-2 flex-col lg:grid lg:rows-3 flex-col lg:grid-cols-6 gap-6">
+            <div className='flex flex-col items-center gap-4 lg:col-span-2'>
               <Image alt= 'Picture of Anthony Margherio.' className= 'rounded-2xl flex' src='/melondon.jpg' width={300} height={100}/>
-              <Image alt= 'Picture of an aircraft window and clouds.' className= 'rounded-2xl hidden md:flex' src='/airplanewindow2.jpg' width={300} height={150}/>
-              <Image alt= 'Picture of Smoky Mountains.' className= 'rounded-2xl hidden md:flex' src='/smokies.jpg' width={300} height={300}/>
+              <Image alt= 'Picture of an aircraft window and clouds.' className= 'rounded-2xl hidden lg:flex' src='/airplanewindow2.jpg' width={300} height={150}/>
+              <Image alt= 'Picture of Smoky Mountains.' className= 'rounded-2xl hidden lg:flex' src='/smokies.jpg' width={300} height={300}/>
 
             </div>
-            <div className="max-w-xs px-2.5 lg:max-w-none">
-            </div>
-          </div>
-          <div className="lg:order-second lg:row-span-2 flex justify-center m-2">
+          <div className="lg:col-start-3 col-span-2 flex justify-center">
             <div className="space-y-7 text-base text-zinc-600">
-            <h1 className="text-lg font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+            <h1 className="font-bold tracking-tight text-zinc-800 dark:text-zinc-100 text-2xl">
               Hi, I'm Anthony. I'm a tech and travel enthusiast living in Chicago.
             </h1>
               <p>
