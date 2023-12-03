@@ -13,12 +13,13 @@ const SkillsPanel = () => {
   return (
           <div className="flex flex-col items-center rounded-lg shadow-lg bg-white ring-1 ring-indigo-200">
                 <h1 className='font-semibold text-lg pb-6'>My Skills</h1>
-                    <div className="grid grid-cols-6 sm:grid-rows-1 sm:grid-cols-12 gap-3">
+                  <div className="grid grid-cols-6 sm:grid-rows-1 sm:grid-cols-12 gap-3">
                       <div className="flex justify-center"><SiHtml5 size={70} color={'orange'}/></div>
                       <div className="flex justify-center"><SiCss3 size={70} color={'blue'}/></div>
-                      <div className="flex justify-center"><Image className='rounded-full h-24 w-50' src='/aplus.png' width={100} height={100} alt='me'/></div>
-                      <div className="flex justify-center"><Image className='h-24 w-50' src='/ccna.png' width={100} height={100} alt='me'/></div>
-                      <div className="flex justify-center"><Image className='h-24 w-50 rounded-full' width={100} height={100} src='/networkplus.png' alt='me'/></div>
+                      <div className="flex justify-center"><Image className='h-24 w-50 rounded-full' src='/aplus.png' width={300} height={300} alt='CompTIA A+'/></div>
+                      <div className="flex justify-center"><Image className='h-24 w-50 rounded-full' width={300} height={300} src='/network+.png' alt='CompTIA Network+'/></div>
+                      <div className="flex justify-center"><Image className='h-24 w-50 rounded-full p-2' width={300} height={300} src='/sec+.png' alt='CompTIA Security+'/></div>
+                      <div className="flex justify-center"><Image className='h-24 w-50' src='/ccna.png' width={100} height={100} alt='Cisco Certified Network Asscoiate'/></div>
                       <div className="flex justify-center"><SiReact size={70} color={'indigo'}/></div>
                       <div className="flex justify-center"><SiTailwindcss size={70} color={'cyan'}/></div>
                       <div className="flex justify-center"><SiNodedotjs size={70} color={'green'}/></div>
