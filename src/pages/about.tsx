@@ -56,7 +56,7 @@ export default function About () {
               <p> 
                 When I'm not working, coding or studying, I like spending time running mid to long
                 distances, playing video games, listening to podcasts, or reading fantasy or
-                nonfiction. I also meditate daily, am vegan, and consider myself a calm, kind person who 
+                nonfiction. I also meditate daily, am vegetarian, and consider myself a calm, kind person who 
                 tries to find the fun in life.
                  
               </p>

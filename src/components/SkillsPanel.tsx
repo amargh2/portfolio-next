@@ -16,7 +16,7 @@ const SkillsPanel = () => {
   return (
           <div className="flex flex-col items-center rounded-lg shadow-lg bg-gradient-to-br to-sky-50 from-white ring-1 ring-indigo-200">
                 <h1 className='font-semibold text-lg pb-6'>My Skills</h1>
-                  <div className="grid grid-cols-6 sm:grid-rows-1 sm:grid-cols-12 gap-3">
+                  <div className="grid grid-cols-6 items-center pb-2 sm:grid-rows-1 sm:grid-cols-12 gap-3">
                       <div className="flex justify-center"><SiHtml5 size={70} color={'orange'}/></div>
                       <div className="flex justify-center"><SiCss3 size={70} color={'blue'}/></div>
                       <div className="flex justify-center"><SiReact size={70} color={'indigo'}/></div>

@@ -18,9 +18,9 @@ export default function HomeAboutPanel() {
           <div className='flex justify-center font-bold text-lg text-center'> Hi there, I'm Anthony.</div>
           <div className='flex justify-center m-10'>
             I'm a curious lifelong learner with a love for tech, travel, 
-            reading, and writing. I currently work in IT support and hold several technical certifications, and I genuinely
+            reading, and writing. I currently work in IT support and hold 4 technical certifications, and I genuinely
             enjoy learning and the challenge of solving problems. 
-            I also have a BA in English from UIC and am enthusiastic about 
+            I was an English major and am enthusiastic about 
             documentation, communication, and collaboration. At the moment I am especially focused on learning Azure and Powershell.
             When I'm not working or studying, I like running mid-to-long distance,
             meditating, and playing video games.
