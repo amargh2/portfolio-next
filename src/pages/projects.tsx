@@ -29,7 +29,8 @@ export default function ProjectsPage() {
                 Building these projects was fun, and I learned so much while making them, especially when I was stuck 
                 on a problem and had to read about all kinds of related problems and test multiple solutions to make something work.
                 I am currently focusing on learning PowerShell and I feel these projects
-                have helped set a foundation to help me learn other programming and scripting languages.
+                have helped set a foundation to help me learn other programming and scripting languages, while also giving me a deeper
+                understanding of how applications function on both the front and back end.
               </p>
         </div>
         </div>

@@ -42,7 +42,7 @@ export default function ProjectCarousel() {
   
   return (
   
-      <div className='flex carousel flex-col shadow-lg rounded-lg bg-white ring-1 ring-indigo-200'>
+      <div className='flex carousel flex-col shadow-lg rounded-lg bg-gradient-to-br to-sky-50 from-white ring-1 ring-indigo-200'>
       <div className="flex justify-center">
         <h1 className='font-semibold text-xl pb-2'>Some of my projects</h1>
       </div>

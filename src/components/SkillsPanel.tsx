@@ -14,7 +14,7 @@ import Image from "next/image"
 
 const SkillsPanel = () => {
   return (
-          <div className="flex flex-col items-center rounded-lg shadow-lg bg-white ring-1 ring-indigo-200">
+          <div className="flex flex-col items-center rounded-lg shadow-lg bg-gradient-to-br to-sky-50 from-white ring-1 ring-indigo-200">
                 <h1 className='font-semibold text-lg pb-6'>My Skills</h1>
                   <div className="grid grid-cols-6 sm:grid-rows-1 sm:grid-cols-12 gap-3">
                       <div className="flex justify-center"><SiHtml5 size={70} color={'orange'}/></div>
@@ -22,9 +22,9 @@ const SkillsPanel = () => {
                       <div className="flex justify-center"><SiReact size={70} color={'indigo'}/></div>
                       <div className="flex justify-center"><SiMongodb size={70} color={'green'}/></div>
                       <div className="flex justify-center"><SiNodedotjs size={70} color={'lightgreen'}/></div>
-                      <div className="flex justify-center"><Image className='h-24 w-50 rounded-full' src='/aplus.png' width={300} height={300} alt='CompTIA A+'/></div>
-                      <div className="flex justify-center"><Image className='h-24 w-50 rounded-full' width={300} height={300} src='/network+.png' alt='CompTIA Network+'/></div>
-                      <div className="flex justify-center"><Image className='h-24 w-50 rounded-full p-2' width={300} height={300} src='/sec+.png' alt='CompTIA Security+'/></div>
+                      <div className="flex justify-center"><Image className='h-24 w-50 rounded-full' src='/a+.png' width={300} height={300} alt='CompTIA A+'/></div>
+                      <div className="flex justify-center"><Image className='h-24 w-50 rounded-full' width={300} height={300} src='/net+.png' alt='CompTIA Network+'/></div>
+                      <div className="flex justify-center"><Image className='h-24 w-50 rounded-full' width={300} height={300} src='/s+.png' alt='CompTIA Security+'/></div>
                       <div className="flex justify-center"><Image className='h-24 w-50' src='/ccna.png' width={100} height={100} alt='Cisco Certified Network Asscoiate'/></div>
                       <div className="flex justify-center"><FcLinux size={70} color={'green'}/></div>
                       <div className="flex justify-center"><SiWindows11 size={70} color={'blue'}/></div>

@@ -36,8 +36,8 @@ export default function About () {
                 
                 <p> 
                 I grew up building and playing with computers with my friends,  
-                and I really enjoyed working my way through school
-                doing desktop support for university employees. During the pandemic,
+                and I enjoyed working my way through school
+                doing desktop support for my university's employees. During the pandemic,
                 I realized I was spending a lot of time on the jumpseat thinking about that job, coding, and IT infrastructure and
                 that, while I loved flying, I was ready to learn and grow 
                 in a different way. I decided to update my skills and knowledge to pivot to IT.
@@ -56,7 +56,7 @@ export default function About () {
               <p> 
                 When I'm not working, coding or studying, I like spending time running mid to long
                 distances, playing video games, listening to podcasts, or reading fantasy or
-                nonfiction. I also meditate daily, am vegan, and consider myself a pretty calm, kind person who 
+                nonfiction. I also meditate daily, am vegan, and consider myself a calm, kind person who 
                 tries to find the fun in life.
                  
               </p>
