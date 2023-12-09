@@ -22,13 +22,13 @@ export default function About () {
           <div className="lg:col-start-3 col-span-2 flex justify-center">
             <div className="space-y-7 text-base text-zinc-600">
             <h1 className="font-bold tracking-tight text-zinc-800 dark:text-zinc-100 text-3xl">
-              Hi, I'm Anthony. I'm a tech and travel enthusiast living in Chicago.
+              Hi, I'm Anthony. I'm a tech and travel enthusiast
             </h1>
               <p>
                 As a curious kid from a small town in Illinois I thought a lot about seeing the world and traveling,
                 and I'm lucky to have done a bit of that as a flight attendant, backpacker, and English
                 teacher in South Korea. While I wouldn't change a thing, especially the 8 years 
-                I spent flying, so much travel for so long 
+                I spent flying at American Airlines, so much travel for so long 
                 coupled with the challenges of the pandemic had me thinking about where to land next
                 in life and in my career. 
                 </p>
@@ -50,7 +50,7 @@ export default function About () {
               </p>
               
               <p> 
-                When I'm not coding or studying, I like spending time running mid to long
+                When I'm not working, coding or studying, I like spending time running mid to long
                 distances, playing the occasional video game, listening to podcasts, or reading fantasy or
                 nonfiction. I also meditate daily, am a vegetarian, and consider myself a pretty calm, kind person who 
                 tries to find the fun in life. 
@@ -58,11 +58,6 @@ export default function About () {
               </p>
             </div>
           </div>
-          
-          <div className='flex flex-col items-center gap-4 lg:col-span-2'>
-              <Image alt= 'Picture of Anthony Margherio.' className= 'rounded-2xl flex' src='/smokies.jpg' width={375} height={100}/>
-              <Image alt= 'Picture of an aircraft window and clouds.' className= 'rounded-2xl hidden lg:flex' src='/airplanewindow.jpg' width={375} height={100}/>
-            </div>
         </div>
         <Footer/>
 
