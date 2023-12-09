@@ -36,7 +36,7 @@ export default function About () {
                 <p> 
                 I grew up building and playing with computers with my friends,  
                 and I really enjoyed working in one of my college's IT departments doing desktop support back in the aughts. During the pandemic,
-                I realized I was spending a lot of time on the jumpseat thinking about coding projects, 
+                I realized I was spending a lot of time on the jumpseat thinking about coding, 
                 networking and IT and that, while I loved flying, I was ready to learn and grow 
                 in a different way. I decided to create a plan to transition to IT.
                 </p>
