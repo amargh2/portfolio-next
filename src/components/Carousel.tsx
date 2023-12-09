@@ -44,7 +44,7 @@ export default function ProjectCarousel() {
   
       <div className='flex carousel flex-col shadow-lg rounded-lg bg-white ring-1 ring-indigo-200'>
       <div className="flex justify-center">
-        <h1 className='font-semibold text-xl pb-2'>Some of my projects so far</h1>
+        <h1 className='font-semibold text-xl pb-2'>Some of my projects</h1>
       </div>
           <div className="carousel h-80">{createItemsForCarousel()}</div>
         <div className="flex justify-center w-full py-2 gap-2">
