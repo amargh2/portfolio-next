@@ -6,8 +6,8 @@ export default function HomeAboutPanel() {
     return (    
     <div className='flex md:flex-row flex-col bg-white rounded-lg gap-2 shadow-md p-2 ring-1 ring-indigo-200'>
           <div className='flex flex-col items-center'>
-            <Image src='/me3.jpg' alt='Photo of Anthony.' width={500} height={100} className='rounded-full hidden md:flex'/>
-            <Image src='/me3.jpg' alt='Photo of Anthony.' width={200} height={100} className='rounded-full md:hidden'/>
+            <Image src='/anthony.jpg' alt='Photo of Anthony.' width={500} height={100} className='rounded-full hidden md:flex'/>
+            <Image src='/anthony.jpg' alt='Photo of Anthony.' width={150} height={100} className='rounded-full md:hidden'/>
           <div className='text-slate-90 mt-2 flex justify-center p-2'>
             <Link href='https://www.github.com/amargh2'>    
               <BsGithub size={30}/>
@@ -21,12 +21,9 @@ export default function HomeAboutPanel() {
             reading, and writing.
             When I'm not coding or studying, you can find me running,
             reading a fantasy novel, or playing a video game. I'm interested
-            in most areas of tech, including software development, networking 
-            and IT infrastructure. I'm comfortable in Linux and Windows, and 
-            I never shy away from new technologies or things to learn. In addition
-            to my technical skills I also have a BA in English and strong writing skills
-            along with a lot of experience working with people, from teaching English overseas
-            to assisting customers at 30,000 feet.
+            in most areas of tech, but lately I have been focusing on PowerShell, Azure, 
+            and IT infrastructure. I have a BA in English and am enthusiastic about 
+            good documentation.
           </div>
           </div>
         </div>
