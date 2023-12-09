@@ -16,7 +16,7 @@ export default function About () {
       <div className="mt-2 mb-4">
         <div className="flex m-2 flex-col lg:grid lg:rows-3 flex-col lg:grid-cols-6 gap-6">
             <div className='flex flex-col items-center gap-4 lg:col-span-2'>
-              <Image alt= 'Picture of Anthony Margherio.' className= 'rounded-2xl flex' src='/melondon.jpg' width={300} height={100}/>
+              <Image alt= 'Picture of Anthony Margherio.' className= 'rounded-2xl flex' src='/melondon.jpg' width={300} height={50}/>
               <Image alt= 'Picture of an aircraft window and clouds.' className= 'rounded-2xl hidden lg:flex' src='/airplanewindow2.jpg' width={300} height={150}/>
             </div>
           <div className="lg:col-start-3 col-span-2 flex justify-center">
@@ -25,22 +25,28 @@ export default function About () {
               Hi, I'm Anthony. I'm a tech and travel enthusiast living in Chicago.
             </h1>
               <p>
-                I grew up in a small town in Illinois dreaming of travel,
-                and I consider myself lucky to have done at least little bit of that
-                as a flight attendant, English teacher in South Korea, and backpacker. 
-                While I wouldn't change a thing,
-                nearly a decade in the air coupled with the pandemic left me thinking about 
-                new challenges, old passions, and where I wanted to land next in my career.
-                I had always been interested in technology and worked in desktop support during my time in college,
-                so I decided to revisit the field and update my knowledge.
+                As a curious kid from a small town in Illinois I thought a lot about seeing the world and traveling,
+                and I'm lucky to have done a bit of that as a flight attendant, backpacker, and English
+                teacher in South Korea. While I wouldn't change a thing, especially the 8 years 
+                I spent flying, so much travel for so long 
+                coupled with the challenges of the pandemic had me thinking about where to land next
+                in life and in my career. 
                 </p>
+                
                 <p> 
-                I currently hold three CompTIA certifications and a CCNA through self-study 
-                and learned to code with JavaScript
+                I grew up building and playing with computers with my friends,  
+                and I really enjoyed working in one of my college's IT departments doing desktop support back in the aughts. During the pandemic,
+                I realized I was spending a lot of time on the jumpseat thinking about coding projects, 
+                networking and IT and that, while I loved flying, I was ready to learn and grow 
+                in a different way. I decided to create a plan to transition to IT.
+                </p>
+                <p>
+                Since that initial decision, I have earned three CompTIA certifications and a CCNA 
+                through self-study, home labbing, and a lot of reading and tinkering. I also learned to code with JavaScript and MongoDB
                 through The Odin Project, an open source, project-based learning course and community. 
                 Professionally, I now get to do IT support for a public organization
                 that does work I believe in. At the moment I am focusing
-                on learning Powershell and Azure and tinkering in my virtualization server and home lab. 
+                on learning Powershell and Azure and am excited by them both. 
               </p>
               
               <p> 
@@ -48,11 +54,15 @@ export default function About () {
                 distances, playing the occasional video game, listening to podcasts, or reading fantasy or
                 nonfiction. I also meditate daily, am a vegetarian, and consider myself a pretty calm, kind person who 
                 tries to find the fun in life. 
-                Thanks for passing through, and don't hesitate to reach out if you'd like to work together. :)
                  
               </p>
             </div>
           </div>
+          
+          <div className='flex flex-col items-center gap-4 lg:col-span-2'>
+              <Image alt= 'Picture of Anthony Margherio.' className= 'rounded-2xl flex' src='/smokies.jpg' width={375} height={100}/>
+              <Image alt= 'Picture of an aircraft window and clouds.' className= 'rounded-2xl hidden lg:flex' src='/airplanewindow.jpg' width={375} height={100}/>
+            </div>
         </div>
         <Footer/>
 
