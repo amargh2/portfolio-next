@@ -2,6 +2,7 @@ import Head from "next/head"
 import Nav from "@/components/Nav"
 import Image from "next/image"
 import Footer from "@/components/Footer"
+import Link from "next/link"
 export default function About () {
     return (
        <> 
@@ -25,7 +26,7 @@ export default function About () {
               Hi, I'm Anthony. I'm a tech and travel enthusiast
             </h1>
               <p>
-                As a curious kid from a small town in Illinois I thought a lot about seeing the world and traveling,
+                As a curious kid from a small town in Illinois I thought a lot about seeing what was outside my hometown,
                 and I'm lucky to have done a bit of that as a flight attendant, backpacker, and English
                 teacher in South Korea. While I wouldn't change a thing, especially the 8 years 
                 I spent flying at American Airlines, so much travel for so long 
@@ -35,7 +36,7 @@ export default function About () {
                 
                 <p> 
                 I grew up building and playing with computers with my friends,  
-                and I really enjoyed working in one of my college's IT departments doing desktop support back in the aughts. During the pandemic,
+                and I really enjoyed working in one of my college's IT departments doing desktop support. During the pandemic,
                 I realized I was spending a lot of time on the jumpseat thinking about coding, 
                 networking and IT and that, while I loved flying, I was ready to learn and grow 
                 in a different way. I decided to create a plan to transition to IT.
@@ -43,7 +44,7 @@ export default function About () {
                 <p>
                 Since that initial decision, I have earned three CompTIA certifications and a CCNA 
                 through self-study, home labbing, and a lot of reading and tinkering. I also learned to code with JavaScript and MongoDB
-                through The Odin Project, an open source, project-based learning course and community. 
+                through <Link className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href='https://www.theodinproject.com'>The Odin Project</Link>, an open source, project-based learning course and community. 
                 Professionally, I now get to do IT support for a public organization
                 that does work I believe in. At the moment I am focusing
                 on learning Powershell and Azure and am excited by them both. 
@@ -51,7 +52,7 @@ export default function About () {
               
               <p> 
                 When I'm not working, coding or studying, I like spending time running mid to long
-                distances, playing the occasional video game, listening to podcasts, or reading fantasy or
+                distances, playing video games, listening to podcasts, or reading fantasy or
                 nonfiction. I also meditate daily, am a vegetarian, and consider myself a pretty calm, kind person who 
                 tries to find the fun in life. 
                  

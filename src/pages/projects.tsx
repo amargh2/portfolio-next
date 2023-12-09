@@ -2,6 +2,7 @@ import Footer from "@/components/Footer"
 import Nav from "@/components/Nav"
 import ProjectGrid from "@/components/ProjectGrid"
 import Head from "next/head"
+import Link from "next/link"
 export default function ProjectsPage() {
   // Project Grid creates Project Cards and places them in a Grid
   return (
@@ -22,11 +23,11 @@ export default function ProjectsPage() {
             </h1>
               <p>
                 This is a selection of some projects I have built so far.
-                These are assignments from The Odin Project, an open source community and course that challenges
-                learners to build projects from scratch after learning and reading about concepts. All of them are hosted on CI/CD 
+                These are assignments from <Link className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href='https://www.theodinproject.com'>The Odin Project</Link>, an open source learning community and course that challenges
+                learners to build projects from scratch after studying concepts. Most of them are hosted on CI/CD 
                 platforms and update as I commit code, though I haven't worked on them actively in a bit.
-                Building these projects has been a lot of fun, and I learned so much while making them - it was a lot of time spent on Google and reading 
-                a lot about how JavaScript in particular works, especially Node and React.
+                Building these projects was fun, and I learned so much while making them, especially when I was stuck 
+                on a problem and had to read about all kinds of related problems and test multiple solutions to make something work.
                 I am currently focusing on learning PowerShell and I feel these projects
                 have helped set a foundation to help me learn other programming and scripting languages.
               </p>

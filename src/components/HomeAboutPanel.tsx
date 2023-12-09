@@ -18,12 +18,12 @@ export default function HomeAboutPanel() {
           <div className='flex justify-center font-bold text-lg text-center'> Hi there, I'm Anthony.</div>
           <div className='flex justify-center m-10'>
             I'm a curious lifelong learner with a love for tech, travel, 
-            reading, and writing. I currently work in IT support and have 4 certifications 
-            along with a strong desire to continue learning. 
-            I also have a BA in English and am enthusiastic about 
+            reading, and writing. I currently work in IT support and hold 4 certifications 
+            and am excited to continue learning. 
+            I have a BA in English and am enthusiastic about 
             documentation, communication, and collaboration. At the moment I am especially focused on learning Azure and Powershell.
             When I'm not working or studying, I like running mid-to-long distance,
-            meditating, and playing the occasional video game.
+            meditating, and playing video games.
           </div>
           </div>
         </div>
