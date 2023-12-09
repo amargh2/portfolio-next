@@ -14,7 +14,7 @@ export default function ProjectsPage() {
           content="Anthony Margherio's projects."
       />
       </Head>  
-      <div className='flex flex-col mb-3'>
+      <div className='flex flex-col mb-3 bg-sky-50'>
         <Nav selected='projects'/>
         <div className= 'grid grid-cols-1 px-10 md:grid-cols-3 md:px-32 gap-10 mb-10'>
         <div className="mt-2 space-y-7 text-base text-zinc-600 col-start-1 col-span-3 lg:mx-40">

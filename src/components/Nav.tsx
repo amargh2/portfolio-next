@@ -2,9 +2,9 @@ import Link  from 'next/link'
 export default function Nav(props:any) {
   
   return (
-    <div className="flex align-middle justify-center py-2">
-      <div className="flex justify-center align-middle">
-        <div className="flex rounded-full bg-white/90 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
+    <div className="flex align-middle justify-center p-2">
+      <div className="flex justify-center p-2 align-middle">
+        <div className="flex rounded-full bg-white/90 text-sm text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur">
           <Link href='/'>
             <button
               type="button"
