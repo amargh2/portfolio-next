@@ -19,7 +19,7 @@ export default function HomeAboutPanel() {
           <div className='flex justify-center m-10'> 
           I'm a curious lifelong learner with a love for tech, travel, reading, and running medium to long distances. Before I started working in technology last year, 
           I taught English in South Korea and then worked as a flight attendant for eight years. 
-          While I loved my time in the air, I genuinely enjoy solving problems in code and infrastructure in a different kind of cloud. I am proficient in the MERN application 
+          While I loved my time in the air, I genuinely enjoy solving problems with code and infrastructure in a different kind of cloud. I am proficient in the MERN application 
           stack and hold 4 technical certifications with my eye on a few more. I do my best to learn something new each day and am enthusiastic about communication, sharing knowledge, 
           and documentation.
           </div>
