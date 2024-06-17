@@ -13,18 +13,10 @@ export default function Nav(props:any) {
               Home
             </button>
           </Link>
-          <Link href='/about'>
-            <button
-              type="button"
-              className={ props.selected==='about' ? "bg-gradient-to-r from-indigo-500 to-cyan-300 bg-gradient-to-br py-1 w-24 text-white font-medium" : "hover:bg-gradient-to-r hover:from-indigo-500 hover:to-cyan-300 bg-gradient-to-br py-1 w-24 hover:text-white font-medium"}
-            >
-              About Me
-            </button>
-          </Link>
           <Link href='/projects'>
             <button
               type="button"
-              className={ props.selected==='projects' ? "bg-gradient-to-r to-indigo-500 from-cyan-300 bg-gradient-to-br py-1 w-24 text-white font-medium rounded-r-2xl" : "hover:bg-gradient-to-r hover:to-indigo-500 hover:from-cyan-300 bg-gradient-to-br py-1 rounded-r-2xl w-24 hover:text-white font-medium"}
+              className={ props.selected==='projects' ? "bg-gradient-to-r from-indigo-500 to-cyan-300 bg-gradient-to-br py-1 w-24 text-white font-medium rounded-r-2xl" : "hover:bg-gradient-to-r hover:from-indigo-500 hover:to-cyan-300 bg-gradient-to-br py-1 rounded-r-2xl w-24 hover:text-white font-medium"}
             >
               Projects
             </button>

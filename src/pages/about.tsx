@@ -26,12 +26,8 @@ export default function About () {
               Hi, I'm Anthony
             </h1>
               <p>
-                As a curious kid growing up in a small town in Illinois, I thought a lot about travel, and I feel lucky to 
-                have done a bit of that as a flight attendant, backpacker, and English
-                teacher in South Korea. While I wouldn't change a thing, especially the 8 years 
-                I spent flying at American Airlines, so much travel for so long -
-                coupled with the challenges of the pandemic - left me thinking about where to land next
-                in life and in my career. 
+                I was a flight attendant for nearly 8 years at American Airlines, and had a brief stint of teaching English in South Korea and backpacking
+                through south America before that. I loved my time traveling, but 
                 </p>
                 
                 <p> 
