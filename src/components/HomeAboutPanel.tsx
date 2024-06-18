@@ -6,8 +6,8 @@ export default function HomeAboutPanel() {
     return (    
     <div className='flex bg-gradient-to-br to-sky-50 from-white md:flex-row flex-col rounded-lg gap-2 shadow-md p-2 ring-1 ring-indigo-200'>
           <div className='flex flex-col items-center'>
-            <Image src='/anthony1.jpg' alt='Photo of Anthony.' width={1000} height={100} className='rounded-full hidden md:flex'/>
-            <Image src='/anthony1.jpg' alt='Photo of Anthony.' width={200} height={50} className='rounded-full md:hidden'/>
+            <Image src='/anthony.jpg' alt='Photo of Anthony.' width={1000} height={100} className='rounded-full hidden md:flex'/>
+            <Image src='/anthony.jpg' alt='Photo of Anthony.' width={200} height={50} className='rounded-full md:hidden'/>
           <div className='text-slate-90 mt-2 flex justify-center p-2'>
             <Link href='https://www.github.com/amargh2'>    
               <BsGithub size={30}/>
